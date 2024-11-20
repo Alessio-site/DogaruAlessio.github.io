@@ -1,0 +1,228 @@
+html{
+    font-size: 20px;
+}
+
+nav{
+    overflow: hidden;
+    font-family: "Abril Fatface", serif;
+    background-color: #7CF5FF;
+    padding: 1 rem;
+}
+
+nav ul{
+    list-style-type:none;
+    margin: ;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration:none;
+    display: block;
+    padding: 14px 16px;
+    font-size: 30px;
+}
+
+nav ul li a:hover{
+    background-color: #D4BEE4;
+    border-radius: 5px;
+}
+
+
+
+.section1{
+    background-color: #7CF5FF;
+}
+
+h1{
+    font-family: "Abril Fatface", serif;
+    font-size: 30px;
+}
+
+h2{
+    font-family: "Abril Fatface", serif;
+    font-size: 30px;
+}
+
+h3{
+    font-family: "Abril Fatface", serif;
+    font-size: 20px;
+}
+
+.photo1{
+    border-radius: 25px;
+}
+
+p{
+    font-family: "Lato", sans-serif;
+   font-size: 30px; 
+}
+
+
+.contact-me{
+    font-size: 20px;
+}
+
+.presentation{
+    margin-right: 20px;
+    font-size: 40px;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color:#96EFFF;
+}
+
+.hero-image{
+    display: flex;
+    margin-left: 60px;
+    justify-content: space-between;
+    /* box-shadow: 1px 1px 20px yellow;  */
+    filter: drop-shadow(1px 1px 20px mediumpurple); 
+
+}
+
+#profile-picture{
+    border-radius: 70px;
+}
+
+#title{
+    font-size: 50px;
+    margin-bottom: 0cm;
+    color: #640D5F;
+}
+
+
+.resume{
+    margin: 0px;
+    background-color: #7CF5FF;
+    height: 600px;
+}
+
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 350px;
+    color: #640D5F;
+    margin: 50px auto;
+}
+
+#title-resume{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    font-size: 60px;
+
+}
+
+.education{
+    margin-right: 60px;
+    height: 300px;
+    margin-right: 70px;
+    background-color: #C4D7FF;
+}
+
+.resume div{
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 1300px;
+}
+
+.resume div div{
+    height: 400px;
+}
+
+
+.work-experience{
+    margin-right: 100px;
+    background-color: #C4D7FF;
+    height: auto;
+}
+
+.skills{
+    background-color: #C4D7FF;
+    height: auto;
+}
+
+.resume h3{
+    align-items: normal;
+    font-size: 35px;
+}
+
+.resume-container ul{
+    font-size: 25px;
+    list-style-type: square;
+}
+
+.information{
+    border-radius: 8px;
+}
+
+.information li{
+    font-size: 25px;
+}
+
+.information h2{
+    font-size: 1.5rem;
+}
+
+.about-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C4D7FF;
+    gap: 10rem;
+}
+
+.project{
+    margin-bottom: 20px;
+    background-color: #96EFFF;
+}
+
+.project-title{
+    font-size: 50px;
+    text-align: center;
+}
+
+.project-container{
+    display: flex;
+    align-items: center;
+    width: 1500px;
+    height: 700px;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin: 0 auto; /* centralizare globala */
+}
+
+.project-item{
+    background-color: #C4D7FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.project-item img{
+    max-width: 90%;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.project-item h3{
+    font-size: 30px;
+}
+.project-size{
+    font-size: 30px;
+}
